@@ -6,3 +6,4 @@ functions related to the Golang slice.
 
 - __[API doc](https://pkg.go.dev/github.com/qeetell-aaaa/aaaaaaab)__
 - __[Source code](https://github.com/qeetell-aaaa/aaaaaaab)__
+

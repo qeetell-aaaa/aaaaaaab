@@ -1,7 +1,12 @@
 package aaaaaaab
 
 func RemoveLastByte (i []byte) ([]byte) {
-	newSlice := make ([]byte, len (i) - 1)
+	newNoOfBytes := len (i) - 1
+	if newNoOfBytes < 0 {
+		newNoOfBytes = 0
+	}
+	
+	newSlice := make ([]byte, newNoOfBytes)
 	copy (newSlice, i)
 	return newSlice
 }
